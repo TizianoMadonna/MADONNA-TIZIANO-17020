@@ -1,0 +1,247 @@
+body
+{
+overflow-x: hidden;
+}
+.logoHmb
+{
+    display:none;
+}
+header
+{
+    margin: -8px;
+    background-color: burlywood;
+    padding-bottom: 123px;
+}
+.contenedor-nombres
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logowebfinal
+{
+    width: 100px;
+    padding: 10px;
+    float: left;
+}
+.filtro
+{
+    border-style: ridge;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 5px;
+    margin-left: 550px;
+    margin-top: 80px;
+    float: left;  
+}
+#divisionhead
+{
+    border: solid 2px black;
+}
+a
+{
+    color: black;
+}
+
+footer
+{
+    margin: -18px;
+    margin-top: 10px;
+    background-color: burlywood;
+}
+.logoPiePagina
+{
+    width: 50px;
+}
+.footerRelleno, div
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.tituloFormulario
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.input-consulta-contactar
+{
+    width: 700px;
+    height: 50px;
+    justify-items: center;
+}
+
+.boton-carta-btn
+{
+    width: 500px;
+    height: 100px;
+    font-size: 25px;
+}
+.boton-modificar-carta-btn
+{
+    width: 500px;
+    height: 100px;
+    font-size: 25px;
+}
+.boton-index
+{
+    margin: 75px;
+}
+.btn-volver-index
+{
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+}
+.btn-volver
+{
+    margin-top: 20px;
+}
+.contraseña-input-div
+{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.contraseña-input
+{
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+}
+.esconderContraseña
+{
+    display: none;
+}
+.input-mod
+{
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    padding: 5px;
+}
+.btn-mod-elec
+{
+    width: 500px;
+    height: 100px;
+    font-size: 25px;
+    margin: 20px;
+}
+.btn-eliminar
+{
+    margin-bottom: 150px;
+}
+.carta-mostrar
+{
+    margin-top: 50px;
+}
+.Postres
+{
+    background-color: black;
+    color: white;
+}
+.contenedor-elementos-api
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    margin-bottom: 3px;
+    border: solid black 1px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+.id-inner
+{
+    font-size: 10px;
+    color: gray;
+}
+.titulo-inner
+{
+    font-size: 30px;
+    float: left;
+}
+.precio-inner
+{
+    font-size: 25px;
+}
+.fecha-inner
+{
+    font-size: 15px;
+}
+@media(max-width: 1286px)
+{
+    .filtro
+    {
+        margin-left: 430px;
+    }
+}
+@media(max-width: 1000px)
+{
+    .boton-carta-btn
+    {
+        width: 400px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .boton-modificar-carta-btn
+    {
+        width: 400px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .btn-mod-elec
+    {
+        width: 400px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .logowebfinal
+    {
+        width: 80px;
+    }
+    .fecha-inner
+    {
+        font-size: 12px;
+    }
+    .precio-inner
+    {
+        font-size: 2opx;
+    }
+    .titulo-inner
+    {
+        font-size: 25px;
+    }
+    .id-inner
+    {
+        font-size: 6px;
+    }
+    .filtro
+    {
+        margin-left: 300px;
+        margin-top: 60px;
+    }
+    header
+    {
+        padding-bottom: 105px;
+    }
+}
+@media(max-width: 700px)
+{
+    .filtro
+    {
+        margin-left: 150px;
+    }
+    .titulo-inner
+    {
+        font-size: 20px;
+    }
+}
+@media(max-width: 600px)
+{
+    .filtro
+    {
+        margin-left: 70px;
+    }
+}
